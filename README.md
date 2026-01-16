@@ -70,7 +70,8 @@ Debian packaging policy expects all files in a package to:
 
 Run:
 ```
-chmod -R go-w package-edit chown -R root:root package-edit
+chmod -R go-w package-edit
+chown -R root:root package-edit
 ```
 Then rebuild the package again:
 ```
