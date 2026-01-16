@@ -17,9 +17,9 @@ A `.deb` file is an `ar` archive containing three main parts:
     
 
 Dependency declarations live in the **`control`** file inside `control.tar.*`, for example:
-
+```
 `Depends: libc6 (>= 2.31), foo | bar`
-
+```
 ## Method: Edit the dependency directly (recommended)
 
 ### 1\. Extract the `.deb` package
